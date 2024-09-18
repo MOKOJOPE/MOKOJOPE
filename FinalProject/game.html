@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animal Matching Game</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body class="grid-container">
+        <header class="header">
+            <h1>Animal's Game Station</h1>
+        </header>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="funfact123.html">Fun Facts</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main class="main">
+            <div class="instruction-container">
+            <h2>Game Instruction:</h2>
+            <ul>
+                <li>Click <mark>"Start Game"</mark> Button</li>
+                <li>Filp the cards for matching</li>
+                <li>If matching all the card successfully, you win the game!</li>
+            </ul>
+            </div>
+            <div id="game-container">
+                <h1>Animal Matching Game</h1>
+                <div id="game-board">
+                    <!-- Cards will be generated here -->
+                </div>
+                <button onclick="startGame()">Start Game</button>
+            </div>
+        </main>
+        <footer class="footer"> 
+            <p>&copy; 2024 Animal Matching Game. All rights reserved.</p>
+        </footer>
+        <script src="Scripts/script.js"></script>
+    </body>
+</html>

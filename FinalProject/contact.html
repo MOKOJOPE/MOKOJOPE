@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body class="grid-container1">
+        <header class="header">
+            <h1>Animal's Game Station</h1>
+        </header>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="funfact123.html">Fun Facts</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="main">
+            <h2>We would like to hear feedback from you! </h2>
+            <form action="https://formspree.io/f/myzggkob" method="POST" id="registrationForm" class="grid-container1">
+                <div class="userplace">
+                <label for="username">Username:</label>
+                </div>
+                <div class="blank1">
+                <input type="text" id="username" name="username" required>
+                <div class="feedback" id="usernameFeedback"></div>
+                </div>
+                
+                <div class="phoneplace">
+                <label for="phone">Phone:</label>
+                </div>
+                <div class="blank2">
+                <input type="tel" id="phone" name="phone" placeholder="+1 (XXX) XXX-XXXX" required>
+                <div class="feedback" id="phoneFeedback"></div>
+                </div>
+        
+                <div class="emailplace">
+                <label for="email">Email:</label>
+                </div>
+                <div class="blank3">
+                <input type="email" id="email" name="email" required>
+                <div class="feedback" id="emailFeedback"></div>
+                </div>
+
+                <div class="ratingplace">
+                    <label for="rating">Rating:</label>
+                </div>
+                <div class="list">
+                    <select id="rating" name="rating" required>
+                        <option value="">Select a rating</option>
+                        <option value="5">5 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="2">2 Stars</option>
+                        <option value="1">1 Star</option>
+                    </select>
+                    <div class="feedback" id="ratingFeedback"></div>
+                </div>
+        
+                <div class="commentplace">
+                <label for="comment">Comment:</label>
+                </div>
+                <div class="blank4">
+                <textarea type="comment" id="comment" name="comment" required></textarea>
+                <div class="feedback" id="commentFeedback"></div>
+                </div>
+        
+                <div class="submitplace">
+                <button type="submit">Submit</button>
+                <div class="feedback valid-feedback" id="registrationFeedback"></div>
+                <div>
+                
+            </form>
+        </main>
+
+        <footer class="footer"> 
+            <p>Hope you enjoy the game!</p>
+            <p>&copy; 2024 Animal Matching Game. All rights reserved.</p>
+        </footer>
+    
+        <script src="Scripts/form.js"></script>
+    </body>
+</html>
