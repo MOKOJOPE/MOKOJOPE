@@ -1,0 +1,416 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #e2edc5;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "figure"
+        "footer";
+
+    grid-template-columns: 1fr;
+    
+    gap: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    background-color: bisque;
+    margin:0;
+    padding:0;
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(104, 197, 197);
+}
+
+.main p{
+    margin: 15px 40px;
+    padding: 0;
+    text-align: center;
+    }
+
+#poster {
+    border-radius: 5%;
+    width:90%
+    
+}
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure img {
+    width:80%;
+    border-radius: 5%;
+}
+
+.figure figcaption {
+    width:100%;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+ } 
+ 
+ .menu li {
+    padding: 5px;
+    margin:0;
+    background-color: rgba(103, 237, 118, 0.505);
+ }
+ 
+ .menu a {
+     text-decoration: none;
+     color: #333;
+     font-size: 17px;
+     padding: 10px 15px;
+     display: block;
+ }
+ 
+ .menu a:hover {
+     background-color: #f5f5f5;
+ }
+ 
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 6px 0 ;
+    margin:0;
+    background-color: rgba(103, 237, 118, 0.505);
+    width: 100%;
+}
+
+.instruction-container li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+#game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#game-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid #333;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    /* transition: background-color 0.3s ease; */
+}
+
+.card.flip .back-face {
+    background-size: cover;
+    background-position: center;
+    width:100px;
+    height:100px;
+}
+
+.card {
+    background-image: url(../IMAGES/MatchingAnimal.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.animal-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.animal-card {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.animal-card img {
+    width: 100%;
+    height: auto;
+}
+
+.animal-card:hover {
+    transform: scale(1.1);
+}
+
+.fact-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#factText {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.grid-container1 {
+    display:grid;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "userplace"
+        "blank1"
+        "phoneplace"
+        "blank2"
+        "emailplace"
+        "blank3"
+        "ratingplace"
+        "list"
+        "commentplace"
+        "blank4"
+        "submitplace"
+        "footer";
+
+        gap: 0;
+        padding: 0;
+        margin: 0;
+  }
+  
+  .userplace {
+    grid-area: userplace;
+    margin: 10px;
+  }
+  
+  .phoneplace {
+    grid-area: phoneplace;  
+    margin: 10px;
+  }
+  
+  .emailplace {
+    grid-area: emailplace;
+    margin: 10px;
+  }
+  
+  .commentplace {
+    grid-area:commentplace;
+    margin: 10px;
+  }
+  
+  .submitplace {
+    grid-area:submitplace;
+    margin: 10px;
+  }
+  
+  .blank1 {
+    grid-area:blank1;  
+    margin: 10px;
+  }
+  
+  .blank2 {
+    grid-area:blank2;
+    margin: 10px;
+  }
+  
+  .blank3 {
+    grid-area:blank3;
+    margin: 10px;
+  }
+  
+  .blank4 {
+    grid-area:blank4;
+    margin: 10px;
+  }
+
+  .ratingplace {
+    grid-area:ratingplace;
+    margin: 10px;
+    }
+
+  .list {
+    grid-area:list;
+    margin: 10px;
+  }
+
+
+  textarea{
+    width: 80%; /* Full width within the containing element */
+    height: 150px; /* Desired height */
+    padding: 10px; /* Padding for better readability */
+    font-size: 16px; /* Font size for better readability */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border styling */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    resize: vertical; /* Allow the user to resize vertically */
+  }
+
+  .feedback {
+    color: red;
+    display: none;
+  }
+  
+  .valid-feedback {
+    color: green;
+    display: none; 
+  }
+
+@media (min-width: 768px) {
+    .menu {
+        margin:0;
+        padding:0;
+        display:flex;
+    }
+    .menu li {
+        display: inline-block;
+        width:auto;
+        flex: 1;
+    }
+    .menu a {
+        width:100%;
+    }
+
+    #poster {
+        width:60%;
+    }
+
+    .main {
+        padding-top: 3%;
+        padding-bottom: 7%;
+        /* min-height: 1500px; */
+    }
+
+    .grid-container1 {
+        grid-template-areas:
+            "header header"
+            "nav nav"
+            "main main"
+            "userplace blank1"
+            "phoneplace blank2"
+            "emailplace blank3"
+            "ratingplace list"
+            "commentplace blank4"
+            "submitplace submitplace"
+            "footer footer";
+    }
+
+    .grid-container {
+        grid-template-areas: 
+            "header header"
+            "nav nav"
+            "main main"
+            "figure figure"
+            "footer footer";
+
+    }
+
+    .figure {
+        width:50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .figure img {
+        width:50%;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+
+    #poster {
+        width:40%;
+    }
+
+    .grid-container1 {
+      grid-template-areas:
+            "header header header header"
+            "nav nav nav nav"
+            "main main main main"
+            "userplace userplace blank1 blank1"
+            "phoneplace  phoneplace blank2 blank2"
+            "emailplace emailplace blank3 blank3"
+            "ratingplace ratingplace list list"
+            "commentplace commentplace blank4 blank4"
+            "submitplace submitplace submitplace submitplace"
+            "footer footer footer footer";
+    
+    }
+
+    .grid-container {
+        grid-template-areas: 
+            "header header header header"
+            "nav nav nav nav"
+            "main main main main"
+            "figure figure figure figure"
+            "footer footer footer footer";
+    }
+
+    .figure {
+        width:30%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .figure img {
+        width: 60%;
+    }
+
+  }
