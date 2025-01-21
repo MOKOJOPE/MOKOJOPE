@@ -5,7 +5,7 @@
 - 📫 Contact me: chanlokyiu326@gmail.com
 - 💬 Project:
   - ✨ University Department Website Redesign (Website: https://byuh.teamdynamix.com/TDClient/1902/Portal/Home/)
-  - ✨ Kid-Friendly Interactive Website with AI-Enhanced Features (Website: https://byu-hawaii.github.io/activities-MOKOJOPE/FinalProject/index.html)
+  - ✨ Kid-Friendly Interactive Website with AI-Enhanced Features (Website: https://mokojope.github.io/Kid-Friendly-Interactive-Website-with-AI-Enhanced-Features/FinalProject/index.html)
 
 
 <!--
