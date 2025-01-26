@@ -1,7 +1,8 @@
 ## Hi Everyone! 👋
-- 🔭 I’m currently working on profile website and some mini game projects
+- 🔭 I’m currently working on profile website and some mini game projects.
 - 🌱 I’m currently learning Python, Java and Web development at Brigham Young University-Hawaii.
 - ⚡ I'm self learning different languages (example: JavaScript, React, Next.js...)
+- 😄 My Porflie Website: https://mokojope.github.io/MYPORFLIE/
 - 📫 Contact me: chanlokyiu326@gmail.com
 - 💬 Project:
   - ✨ University Department Website Redesign (Website: https://byuh.teamdynamix.com/TDClient/1902/Portal/Home/)
