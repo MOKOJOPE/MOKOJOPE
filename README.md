@@ -1,4 +1,4 @@
-## Hi Everyone! 👋
+## Hi Everyone! 👋 This is Momo :)
 - 🔭 I’m currently working on profile website and some mini game projects.
 - 🌱 I’m currently learning Python, Java and Web development at Brigham Young University-Hawaii.
 - ⚡ I'm self learning different languages (example: JavaScript, React, Next.js...)
